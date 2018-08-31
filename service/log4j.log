@@ -1,0 +1,30 @@
+2018-08-31 14:25:41,745 INFO  - HHH000412: Hibernate Core {5.2.16.Final}
+2018-08-31 14:25:41,749 INFO  - HHH000206: hibernate.properties not found
+2018-08-31 14:25:41,833 INFO  - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-08-31 14:25:42,354 INFO  - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-08-31 14:25:44,652 INFO  - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@30e75cd'
+2018-08-31 14:25:45,761 INFO  - HHH000397: Using ASTQueryTranslatorFactory
+2018-08-31 14:25:46,923 INFO  - Method findAll is called in TraineeDao
+2018-08-31 14:25:47,019 INFO  - List of Trainees: [Trainee(id=1, name=Olga Borzdyko, trainer=Trainer(id=1, name=Andrei Reut, language=Java, experience=6)), Trainee(id=2, name=Denis Byhovsky, trainer=Trainer(id=1, name=Andrei Reut, language=Java, experience=6)), Trainee(id=3, name=Sergei Sergeev, trainer=Trainer(id=1, name=Andrei Reut, language=Java, experience=6))]
+2018-08-31 14:25:47,156 INFO  - Method find is called in TraineeDao
+2018-08-31 14:25:47,160 INFO  - Trainee(id=4, name=Olga Borzdyko, trainer=Trainer(id=4, name=Andrei Reut, language=Java, experience=6)) has been found successfully!
+2018-08-31 14:25:47,261 INFO  - Method save is called in TraineeDao
+2018-08-31 14:25:47,264 INFO  - Trainee(id=10, name=Alexandr Alexandrov, trainer=Trainer(id=8, name=Ivan Ivanov, language=C++, experience=4)) has been saved successfully!
+2018-08-31 14:25:47,301 INFO  - Method findByTrainerName is called in TraineeDao
+2018-08-31 14:25:47,370 INFO  - List of Trainees: [Trainee(id=11, name=Olga Borzdyko, trainer=Trainer(id=10, name=Andrei Reut, language=Java, experience=6)), Trainee(id=12, name=Denis Byhovsky, trainer=Trainer(id=10, name=Andrei Reut, language=Java, experience=6)), Trainee(id=13, name=Sergei Sergeev, trainer=Trainer(id=10, name=Andrei Reut, language=Java, experience=6))]
+2018-08-31 14:25:47,452 INFO  - Method delete is called in TraineeDao
+2018-08-31 14:25:47,457 INFO  - Trainee(id=16, name=Sergei Sergeev, trainer=Trainer(id=13, name=Andrei Reut, language=Java, experience=6))' has been deleted successfully!
+2018-08-31 14:25:47,589 INFO  - Method update is called in TraineeDao for Trainee(id=19, name=Sergei Sergeev, trainer=Trainer(id=17, name=Ivan Ivanov, language=C++, experience=4))
+2018-08-31 14:25:47,590 INFO  - Trainee(id=19, name=Sergei Sergeev, trainer=Trainer(id=17, name=Ivan Ivanov, language=C++, experience=4))' has been updated successfully!
+2018-08-31 14:25:48,085 INFO  - Method findByLanguage is called in TrainerDaoImpl
+2018-08-31 14:25:48,118 INFO  - List of Trainers: [Trainer(id=19, name=Andrei Reut, language=Java, experience=6)]
+2018-08-31 14:25:48,204 INFO  - Method findAll is called in TrainerDaoImpl
+2018-08-31 14:25:48,214 INFO  - List of Trainers: [Trainer(id=22, name=Andrei Reut, language=Java, experience=6), Trainer(id=23, name=Ivan Ivanov, language=C++, experience=4), Trainer(id=24, name=Petr Petrov, language=C#, experience=5)]
+2018-08-31 14:25:48,261 INFO  - Method find is called in TrainerDaoImpl
+2018-08-31 14:25:48,262 INFO  - Trainer(id=25, name=Andrei Reut, language=Java, experience=6) has been found successfully
+2018-08-31 14:25:48,331 INFO  - Method save is called in TrainerDaoImpl
+2018-08-31 14:25:48,334 INFO  - Trainer(id=31, name=Nikolai Nikolaev, language=C, experience=12) has been saved successfully!
+2018-08-31 14:25:48,434 INFO  - Method delete is called in TrainerDaoImpl
+2018-08-31 14:25:48,435 INFO  - Trainer(id=33, name=Ivan Ivanov, language=C++, experience=4) has been deleted successfully!
+2018-08-31 14:25:48,503 INFO  - Method update is called in TrainerDaoImpl for Trainer(id=36, name=Ivan Ivanov, language=Java, experience=4)
+2018-08-31 14:25:48,504 INFO  - Trainer(id=36, name=Ivan Ivanov, language=Java, experience=4) has been updated successfully!
